@@ -1,0 +1,43 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background-color: black;
+  padding: 10px;
+}
+.header h1{
+  color: white;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.content input{
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.content h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.content label{
+  font-size: 20px;
+}
+#submit{
+  margin-left: 50px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+hr{
+  margin: 10px 50px;
+}
